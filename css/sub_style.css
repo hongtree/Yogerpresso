@@ -1,0 +1,281 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/******master.css**********************************/
+
+/**** Layout ************************/
+body {
+  width: 100%;
+  background: url(../imgs/bg_top.jpg), url(../imgs/bg_bottom.jpg);
+  background-repeat: repeat-x, repeat-x;
+  background-position: 50% 0%, 50% 100%;
+}
+
+#wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*****í—¤ë”ì˜ì—­ ***************************/
+#main_header {
+  overflow: hidden;
+  width: 100%;
+  height: 103px;
+}
+#main_header > h1 {
+  float: left;
+  width: 122px;
+  height: 47px;
+  margin-top: 33px;
+  margin-left: 34px;
+}
+
+#top_menu {
+  overflow: hidden;
+  margin-top: 18px;
+  margin-right: 1px;
+}
+#top_menu > ul {
+  float: right;
+}
+#top_menu > ul > li {
+  float: left;
+  padding-left: 12px;
+  margin-right: 12px;
+  background: url(../imgs/sub_menu_bar.jpg) no-repeat left center;
+}
+#top_menu > ul > li:first-child {
+  background: none;
+}
+#top_menu > ul > li > a {
+  display: block;
+  color: #ff7700;
+}
+
+#main_menu {
+  overflow: hidden;
+  margin-top: 30px;
+  margin-right: 13px;
+}
+#main_menu > ul {
+  float: right;
+}
+#main_menu > ul > li {
+  float: left;
+  margin-left: 30px;
+}
+#main_menu > ul > li > a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+#main_menu > ul > li:nth-child(1) > a {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+#main_menu > ul > li:nth-child(1) > a:hover {
+  color: #f00;
+}
+#main_menu > ul > li > a:hover {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/****contentì˜ì—­*****************************/
+#content {
+  position: relative;
+  height: 320px;
+}
+#top_img {
+  position: absolute;
+  left: -31%;
+
+  width: 1582px;
+  height: 320px;
+  background: url(../imgs/sub_img1.jpg) no-repeat;
+}
+
+#menu_intro {
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+#menu_intro > ul {
+  float: right;
+}
+#menu_intro > ul > li {
+  float: left;
+}
+#menu_intro > ul > li > a {
+  font-size: 13px;
+  color: #777;
+}
+#menu_intro > ul > #first > a {
+  display: block;
+  width: 18px;
+  height: 15px;
+  background: url(../imgs/sub_home.jpg) no-repeat;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#title > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#detail_content {
+  overflow: hidden;
+}
+
+#radio {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+#radio > li {
+  float: left;
+}
+#radio > li > a {
+  display: block;
+  width: 243.2px;
+  height: 43px;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 43px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #991b1f;
+  border-right: none;
+}
+#radio > li:nth-child(4) > a {
+  border-right: 1px solid #999;
+}
+#radio > li > a:hover {
+  text-decoration: none;
+}
+#radio > li:nth-child(1) > a {
+  background-color: #991b1f;
+  color: #fff;
+}
+
+#detail_content > p {
+  font-size: 20px;
+  color: #7b7b7b;
+  text-align: center;
+  font-weight: bold;
+}
+
+#img2 {
+  width: 980px;
+  height: 326px;
+  background: url(../imgs/sub_img2.jpg) no-repeat;
+  margin-top: 33px;
+  margin-bottom: 75px;
+}
+
+#con {
+  height: 467px;
+  width: 100%;
+}
+#con_left {
+  float: left;
+}
+#con_left > ul {
+  height: 465px;
+  margin-right: 19px;
+}
+#con_left > ul > li {
+  width: 132px;
+  height: 132px;
+  margin-bottom: 35px;
+}
+#con_left > ul > li:nth-child(1) {
+  background: url(../imgs/sub_coffeebin.jpg) no-repeat;
+}
+#con_left > ul > li:nth-child(2) {
+  background: url(../imgs/sub_yogert.jpg) no-repeat;
+}
+#con_left > ul > li:nth-child(3) {
+  background: url(../imgs/sub_bread.jpg) no-repeat;
+}
+
+#con_center {
+  float: left;
+}
+#con_center > dl {
+}
+#con_center > dl > dt {
+  font-size: 20px;
+  font-weight: bold;
+  color: #565656;
+}
+#con_center > dl > dd {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #565656;
+}
+
+#con_center > dl:nth-of-type(1) > dt {
+  margin-top: 22px;
+}
+
+#con_center > dl:nth-of-type(2) > dt {
+  margin-top: 82px;
+}
+
+#con_center > dl:nth-of-type(3) > dt {
+  margin-top: 82px;
+}
+
+#con_right {
+  float: right;
+  width: 385px;
+  height: 467px;
+  background: url(../imgs/sub_con_right.jpg) no-repeat;
+  margin-left: 100px;
+}
+
+#detail_content > p:nth-of-type(2) {
+  margin-top: 102px;
+  margin-bottom: 85px;
+}
+
+/****í‘¸í„°ì˜ì—­ ***************************/
+
+#main_footer {
+  overflow: hidden;
+  width: 100%;
+  height: 140px;
+}
+
+#main_footer > h2 {
+  float: left;
+  width: 164px;
+  height: 62px;
+  margin-top: 41px;
+}
+
+#main_footer > #address {
+  float: left;
+  height: 77px;
+  margin-top: 25px;
+  margin-left: 32px;
+  font-size: 11px;
+  color: #777;
+}
+
+#main_footer > #copy {
+  float: left;
+  font-size: 11px;
+  margin-left: 198px;
+  margin-top: 23px;
+}
+
+#main_footer > select {
+  float: right;
+  margin-top: -30px;
+}

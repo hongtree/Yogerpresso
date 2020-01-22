@@ -1,0 +1,9 @@
+/******reset.css******************/
+
+*{margin:0; padding:0;}
+body{font:14px 'Nanum Gothic', sans-serif; color:#000;}
+h1, h2, h3, h4, h5, h6{font-size:1.0em;}
+ul, li{list-style:none;}
+a{text-decoration:none; color:#000;}
+a:hover{text-decoration:underline; color:#000;}
+img, iframe, fieldset{border:none;}
